@@ -546,29 +546,6 @@ body {
     display: block;
   }
 
-  /*tilbage til toppen knap*/
-  .text-hide {
-    display: none;
-  }
-
-  .buttons:hover + .text-hide {
-    display: block;
-    color: #acdbff;
-    font-family: "Luckiest Guy";
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.4rem;
-    padding-top: 18px;
-    padding-left: 0;
-    padding-right: 10px;
-    margin-top: 1rem;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    background-color: #4788ba;
-    height: 60px;
-    box-shadow: 2px 4px 6px #53648278;
-  }
-
   .button-flex {
     display: flex;
     justify-self: right;
@@ -577,7 +554,7 @@ body {
   }
 
   .buttons {
-    padding: 0.5rem;
+    padding-top: 2px;
     font-size: 2.5rem;
     width: 60px;
     height: 60px;
@@ -593,23 +570,16 @@ body {
   .button-flex a {
     color: #f7fc6c;
     text-decoration: none;
-    transition: color 0.5s;
+    transition: color 0.3s;
   }
 
   .button-flex a:hover {
-    font-family: "Luckiest Guy";
-    font-weight: 400;
-    font-style: normal;
     color: #acdbff;
   }
 
   .buttons:hover {
     box-shadow: 2px 4px 6px #53648278;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
     background-color: #4788ba;
-    padding-left: 0.5rem;
-    width: 40px;
   }
   /********************OM MIG DIV*********************/
 
