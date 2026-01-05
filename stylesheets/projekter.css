@@ -796,34 +796,34 @@ details p {
   padding-right: 4rem;
 }
 
-#bonus-button {
+.bonus-button {
   background-color: #8fb6ce;
   margin-left: 10px;
   width: 150px;
 }
 
-#bonus-button a {
+.bonus-button a {
   color: #6889ad;
   text-decoration: none;
 }
 
-#bonus-button:hover {
+.bonus-button:hover {
   box-shadow: 2px 3px 6px #8c468a42;
 }
 
 /*babykristen knap*/
-#bonus-button2 {
+.bonus-button2 {
   background-color: #8fb6ce;
   margin-left: 10px;
   width: 200px;
 }
 
-#bonus-button2 a {
+.bonus-button2 a {
   color: #6889ad;
   text-decoration: none;
 }
 
-#bonus-button2:hover {
+.bonus-button2:hover {
   box-shadow: 2px 3px 6px #8c468a42;
 }
 
@@ -1402,6 +1402,12 @@ details p {
     height: 200px;
     border-radius: 10px;
   }
+
+  .mest-isp-t53 {
+    width: 340px;
+    height: 200px;
+    border-radius: 10px;
+  }
   /*************BONUS DIV DESKTOP****************/
   .emne {
     width: 450px;
@@ -1529,7 +1535,7 @@ details p {
     display: none;
   }
 
-  #details-t6 {
+  .details-t6 {
     width: 700px;
   }
 
