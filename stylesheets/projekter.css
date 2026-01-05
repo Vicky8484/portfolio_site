@@ -224,17 +224,17 @@ p {
 }
 /**************************************************************************************************************/
 /***********************TEMA 2 DIV*****************************/
-#tema2-button {
+.tema2-button {
   background-color: #dc9595;
   margin-left: 10px;
 }
 
-#tema2-button a {
+.tema2-button a {
   color: #bd6b6b;
   text-decoration: none;
 }
 
-#tema2-button:hover {
+.tema2-button:hover {
   box-shadow: 2px 3px 6px #8c464642;
 }
 
@@ -352,17 +352,17 @@ details p {
 
 /************************TEMA 3 DIV*****************************/
 
-#tema3-button {
+.tema3-button {
   background-color: #e2aa82;
   margin-left: 10px;
 }
 
-#tema3-button a {
+.tema3-button a {
   color: #a97652;
   text-decoration: none;
 }
 
-#tema3-button:hover {
+.tema3-button:hover {
   box-shadow: 2px 3px 6px #8c464642;
 }
 
@@ -496,17 +496,17 @@ details p {
 }
 
 /********************TEMA 4 DIV***********************/
-#tema4-button {
+.tema4-button {
   background-color: #d6d69a;
   margin-left: 10px;
 }
 
-#tema4-button a {
+.tema4-button a {
   color: #a9ad68;
   text-decoration: none;
 }
 
-#tema4-button:hover {
+.tema4-button:hover {
   box-shadow: 2px 3px 6px #8c464642;
 }
 
@@ -632,18 +632,18 @@ details p {
 }
 
 /**********************TEMA 5 DIV MOBIL****************************/
-#tema5-button {
+.tema5-button {
   background-color: #88c68c;
   margin-left: 10px;
   width: 230px;
 }
 
-#tema5-button a {
+.tema5-button a {
   color: #53925c;
   text-decoration: none;
 }
 
-#tema5-button:hover {
+.tema5-button:hover {
   box-shadow: 2px 3px 6px #508c4642;
 }
 
@@ -870,21 +870,6 @@ details p {
   display: none;
 }
 /**********************TEMA 6 DIV MOBIL*************************/
-#tema6-button {
-  background-color: #c285c6;
-  margin-left: 10px;
-  width: 150px;
-}
-
-#tema6-button a {
-  color: #86498a;
-  text-decoration: none;
-}
-
-#tema6-button:hover {
-  box-shadow: 2px 3px 6px #8c468a42;
-}
-
 #tema6 {
   background-color: #fdcaff;
   overflow-x: scroll;
@@ -974,7 +959,7 @@ details p {
   padding: 0.5rem;
 }
 
-#details-t6 {
+.details-t6 {
   width: 400px;
 }
 
