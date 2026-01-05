@@ -175,7 +175,7 @@ body {
 .model-slider {
   display: flex;
   overflow-x: auto;
-  scrollbar-width: 0;
+  /* scrollbar-width: 0; */
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
 }
@@ -189,150 +189,94 @@ body {
 }
 
 /**********************DIGITAL***************************/
+/*rullediver i mobil*/
+#digital-mobil {
+  background-color: #bfeafa;
+  padding-bottom: 2rem;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+#digital-rul {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.digi-rul {
+  height: 200px;
+  width: 200px;
+  padding: 0 0.2rem;
+}
+
+#digital-rul2 {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.digi-rul2 {
+  height: 200px;
+  width: 200px;
+  padding: 0 0.2rem;
+}
+
+#digital-rul3 {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.digi-rul3 {
+  height: 200px;
+  width: 200px;
+  padding: 0 0.2rem;
+}
+
+#digital-rul4 {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.digi-rul4 {
+  height: 400px;
+  width: 200px;
+  padding: 0 0.2rem;
+}
+
 /*hele diven*/
 #digital {
-  background-color: #bfeafa;
-  justify-items: center;
-  padding-bottom: 1rem;
-  overflow-x: hidden;
+  display: none;
 }
 
 /*titlen*/
 .digitalart {
-  width: 330px;
+  width: 350px;
   padding-top: 3rem;
-}
-
-/*slide-animation*/
-.digital-infibox {
-  margin: 2rem auto;
-  width: 100%;
-  /* border: red 5px solid; */
-  display: flex;
-  overflow-x: auto;
-}
-
-.digital-infibox::-webkit-scrollbar {
-  display: none;
-}
-
-.digital-infibox img {
-  border-radius: 0;
-  width: 200px;
-  height: 200px;
-  opacity: 90%;
-}
-
-.digital-wrapper {
-  display: flex;
-  gap: 5px;
-  animation: spin 10s infinite linear;
-  padding-right: 5px;
-}
-
-.digi-img {
-  flex: 0 0 5em;
-}
-
-@keyframes spin {
-  from {
-    translate: 0;
-  }
-  to {
-    translate: -100%;
-  }
-}
-
-/*slide-animation 2*/
-.digital-infibox2 {
-  margin: 2rem auto;
-  width: 100%;
-  /* border: red 5px solid; */
-  display: flex;
-  overflow-x: auto;
-}
-
-.digital-infibox2::-webkit-scrollbar {
-  display: none;
-}
-
-.digital-infibox2 img {
-  border-radius: 0;
-  width: 200px;
-  height: 200px;
-  opacity: 90%;
-}
-
-.digital-wrapper2 {
-  display: flex;
-  gap: 5px;
-  animation: spin 12s infinite linear;
-  padding-right: 5px;
-}
-
-.digi-img2 {
-  flex: 0 0 5em;
-}
-
-/*slide-animation 3*/
-.digital-infibox3 {
-  margin: 2rem auto;
-  width: 100%;
-  /* border: red 5px solid; */
-  display: flex;
-  overflow-x: auto;
-}
-
-.digital-infibox3::-webkit-scrollbar {
-  display: none;
-}
-
-.digital-infibox3 img {
-  border-radius: 0;
-  width: 200px;
-  height: 200px;
-  opacity: 90%;
-}
-
-.digital-wrapper3 {
-  display: flex;
-  gap: 5px;
-  animation: spin 16s infinite linear;
-  padding-right: 5px;
-}
-
-.digi-img3 {
-  flex: 0 0 5em;
-}
-
-/*slide-animation 4*/
-.digital-infibox4 {
-  margin: 2rem auto;
-  width: 100%;
-  display: flex;
-  overflow-x: auto;
-}
-
-.digital-infibox4::-webkit-scrollbar {
-  display: none;
-}
-
-.digital-infibox4 img {
-  border-radius: 0;
-  width: 200px;
-  height: 400px;
-  opacity: 90%;
-}
-
-.digital-wrapper4 {
-  display: flex;
-  gap: 5px;
-  animation: spin 12s infinite linear;
-  padding-right: 5px;
-}
-
-.digi-img4 {
-  flex: 0 0 5em;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  margin: 0 auto;
 }
 /*************************MALERIER***********************/
 /*hele diven*/
@@ -375,112 +319,80 @@ body {
 }
 
 /*************************TEGNINGER***********************/
-
-/*hele diven*/
+/*hele desktop diven*/
 #tegninger {
-  background-color: #99d9f0;
-  justify-items: center;
-  padding-bottom: 1rem;
+  display: none;
+}
+
+/*rullediver i mobil*/
+#tegninger-mobil {
+  background-color: #bfeafa;
+  padding-bottom: 2rem;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+#tegninger-rul {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tegn-rul {
+  height: 300px;
+  width: 200px;
+  padding: 0 0.2rem;
+}
+
+#tegninger-rul2 {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tegn-rul2 {
+  height: 300px;
+  width: 200px;
+  padding: 0 0.2rem;
+}
+
+#tegninger-rul3 {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tegn-rul3 {
+  height: 300px;
+  width: 200px;
+  padding: 0 0.2rem;
+  filter: brightness(80%);
+  filter: contrast(120%);
 }
 
 /*tegninger titel svg*/
 .tegninger {
-  padding-top: 2rem;
+  padding-top: 3rem;
   width: 300px;
   margin: 0 auto;
+  padding-bottom: 2rem;
 }
 
-/*tegninger slide-animation*/
-.tegninger-infibox {
-  margin: 2rem auto;
-  width: 100%;
-  display: flex;
-  overflow-x: auto;
-}
-
-.tegninger-infibox::-webkit-scrollbar {
-  display: none;
-}
-
-.tegninger-infibox img {
-  border-radius: 0;
-  width: 200px;
-  height: 300px;
-  opacity: 95%;
-}
-
-.tegninger-wrapper {
-  display: flex;
-  gap: 5px;
-  animation: spin 12s infinite linear;
-  padding-right: 5px;
-}
-
-.tegninger-img {
-  flex: 0 0 5em;
-}
-
-/*tegninger slide-animation 2*/
-.tegninger-infibox2 {
-  margin: 2rem auto;
-  width: 100%;
-  /* border: red 5px solid; */
-  display: flex;
-  overflow-x: auto;
-}
-
-.tegninger-infibox2::-webkit-scrollbar {
-  display: none;
-}
-
-.tegninger-infibox2 img {
-  border-radius: 0;
-  width: 200px;
-  height: 300px;
-  opacity: 90%;
-}
-
-.tegninger-wrapper2 {
-  display: flex;
-  gap: 5px;
-  animation: spin 14s infinite linear;
-  padding-right: 5px;
-}
-
-.tegninger-img2 {
-  flex: 0 0 5em;
-}
-
-/*tegninger slide-animation 3*/
-.tegninger-infibox3 {
-  margin: 0rem auto;
-  width: 100%;
-  /* border: red 5px solid; */
-  display: flex;
-  overflow-x: auto;
-}
-
-.tegninger-infibox3::-webkit-scrollbar {
-  display: none;
-}
-
-.tegninger-infibox3 img {
-  border-radius: 0;
-  width: 200px;
-  height: 300px;
-  opacity: 90%;
-}
-
-.tegninger-wrapper3 {
-  display: flex;
-  gap: 5px;
-  animation: spin 13s infinite linear;
-  padding-right: 5px;
-}
-
-.tegninger-img3 {
-  flex: 0 0 5em;
-}
 /*************************POSTERS***********************/
 /*hele diven*/
 #posters {
@@ -772,10 +684,154 @@ body {
     max-width: 4000px;
   }
   /**********************DIGITAL***************************/
+  /*hele diven*/
+  #digital {
+    background-color: #bfeafa;
+    justify-items: center;
+    padding-bottom: 1rem;
+    overflow-x: hidden;
+    display: block;
+  }
   /*titlen*/
   .digitalart {
     width: 450px;
     padding-top: 3rem;
+  }
+
+  #digital-mobil {
+    display: none;
+  }
+
+  /*slide-animation*/
+  .digital-infibox {
+    margin: 2rem auto;
+    width: 100%;
+    /* border: red 5px solid; */
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .digital-infibox::-webkit-scrollbar {
+    display: none;
+  }
+
+  .digital-infibox img {
+    border-radius: 0;
+    width: 200px;
+    height: 200px;
+    opacity: 90%;
+  }
+
+  .digital-wrapper {
+    display: flex;
+    gap: 5px;
+    animation: spin 10s infinite linear;
+    padding-right: 5px;
+  }
+
+  .digi-img {
+    flex: 0 0 5em;
+  }
+
+  @keyframes spin {
+    from {
+      translate: 0;
+    }
+    to {
+      translate: -100%;
+    }
+  }
+
+  /*slide-animation 2*/
+  .digital-infibox2 {
+    margin: 2rem auto;
+    width: 100%;
+    /* border: red 5px solid; */
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .digital-infibox2::-webkit-scrollbar {
+    display: none;
+  }
+
+  .digital-infibox2 img {
+    border-radius: 0;
+    width: 200px;
+    height: 200px;
+    opacity: 90%;
+  }
+
+  .digital-wrapper2 {
+    display: flex;
+    gap: 5px;
+    animation: spin 12s infinite linear;
+    padding-right: 5px;
+  }
+
+  .digi-img2 {
+    flex: 0 0 5em;
+  }
+
+  /*slide-animation 3*/
+  .digital-infibox3 {
+    margin: 2rem auto;
+    width: 100%;
+    /* border: red 5px solid; */
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .digital-infibox3::-webkit-scrollbar {
+    display: none;
+  }
+
+  .digital-infibox3 img {
+    border-radius: 0;
+    width: 200px;
+    height: 200px;
+    opacity: 90%;
+  }
+
+  .digital-wrapper3 {
+    display: flex;
+    gap: 5px;
+    animation: spin 16s infinite linear;
+    padding-right: 5px;
+  }
+
+  .digi-img3 {
+    flex: 0 0 5em;
+  }
+
+  /*slide-animation 4*/
+  .digital-infibox4 {
+    margin: 2rem auto;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .digital-infibox4::-webkit-scrollbar {
+    display: none;
+  }
+
+  .digital-infibox4 img {
+    border-radius: 0;
+    width: 200px;
+    height: 400px;
+    opacity: 90%;
+  }
+
+  .digital-wrapper4 {
+    display: flex;
+    gap: 5px;
+    animation: spin 12s infinite linear;
+    padding-right: 5px;
+  }
+
+  .digi-img4 {
+    flex: 0 0 5em;
   }
 
   /*************************MALERIER***********************/
@@ -819,15 +875,121 @@ body {
   }
 
   /************************TEGNINGER***********************/
+  /*hele mobil diven*/
+  #digital-mobil {
+    display: none;
+  }
+
+  /*rullediver i mobil*/
+  #tegninger-mobil {
+    display: none;
+  }
+
   /*hele diven*/
   #tegninger {
+    background-color: #99d9f0;
+    justify-items: center;
     padding-bottom: 2rem;
+    display: block;
   }
+
   /*tegninger titel svg*/
   .tegninger {
     padding-top: 2rem;
     width: 430px;
     margin: 0 auto;
+  }
+
+  /*tegninger slide-animation*/
+  .tegninger-infibox {
+    margin: 2rem auto;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .tegninger-infibox::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tegninger-infibox img {
+    border-radius: 0;
+    width: 200px;
+    height: 300px;
+    opacity: 95%;
+  }
+
+  .tegninger-wrapper {
+    display: flex;
+    gap: 5px;
+    animation: spin 12s infinite linear;
+    padding-right: 5px;
+  }
+
+  .tegninger-img {
+    flex: 0 0 5em;
+  }
+
+  /*tegninger slide-animation 2*/
+  .tegninger-infibox2 {
+    margin: 2rem auto;
+    width: 100%;
+    /* border: red 5px solid; */
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .tegninger-infibox2::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tegninger-infibox2 img {
+    border-radius: 0;
+    width: 200px;
+    height: 300px;
+    opacity: 90%;
+  }
+
+  .tegninger-wrapper2 {
+    display: flex;
+    gap: 5px;
+    animation: spin 14s infinite linear;
+    padding-right: 5px;
+  }
+
+  .tegninger-img2 {
+    flex: 0 0 5em;
+  }
+
+  /*tegninger slide-animation 3*/
+  .tegninger-infibox3 {
+    margin: 0rem auto;
+    width: 100%;
+    /* border: red 5px solid; */
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .tegninger-infibox3::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tegninger-infibox3 img {
+    border-radius: 0;
+    width: 200px;
+    height: 300px;
+    opacity: 90%;
+  }
+
+  .tegninger-wrapper3 {
+    display: flex;
+    gap: 5px;
+    animation: spin 13s infinite linear;
+    padding-right: 5px;
+  }
+
+  .tegninger-img3 {
+    flex: 0 0 5em;
   }
   /*************************POSTERS***********************/
   /*hele diven*/
