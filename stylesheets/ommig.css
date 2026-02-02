@@ -106,8 +106,8 @@ body {
   background-color: #daf5ff;
   color: #75afbc;
   display: flex;
-  height: 450px;
   padding: 0 1rem;
+  padding-bottom: 1rem;
 }
 
 .text-go {
@@ -154,8 +154,8 @@ body {
 #modeller {
   background-color: #d0effb;
   color: #75afbc;
-  height: 550px;
   justify-items: center;
+  padding-bottom: 2rem;
   padding: 1rem;
 }
 
@@ -184,7 +184,6 @@ body {
 .model-slider {
   display: flex;
   overflow-x: auto;
-  /* scrollbar-width: 0; */
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
 }
@@ -202,6 +201,7 @@ body {
 #digital-mobil {
   background-color: #bfeafa;
   padding-bottom: 2rem;
+
   ::-webkit-scrollbar {
     display: none;
   }
@@ -291,7 +291,6 @@ body {
 /*hele diven*/
 #malerier {
   background-color: #abe1f5;
-  max-height: 700px;
   justify-items: center;
   padding: 1rem;
 }
@@ -407,9 +406,9 @@ body {
 /*hele diven*/
 #posters {
   background-color: #7ec7e2;
-  height: 750px;
   justify-items: center;
   padding: 1rem;
+  padding-bottom: 2rem;
 }
 
 /*modeller titel svg*/
@@ -462,7 +461,6 @@ body {
 .fotos-infibox {
   margin: 2rem auto;
   width: 100%;
-  /* border: red 5px solid; */
   display: flex;
   overflow-x: auto;
 }
@@ -589,7 +587,6 @@ body {
     display: flex;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    height: 450px;
   }
 
   .text-go {
@@ -636,8 +633,8 @@ body {
   #modeller {
     background-color: #d0effb;
     color: #75afbc;
-    height: 600px;
     justify-items: center;
+    padding-bottom: 3rem;
   }
 
   /*modeller titel svg*/
@@ -825,7 +822,6 @@ body {
   /*hele diven*/
   #malerier {
     background-color: #abe1f5;
-    height: 900px;
     justify-items: center;
     padding: 1rem;
   }
@@ -952,7 +948,6 @@ body {
   .tegninger-infibox3 {
     margin: 0rem auto;
     width: 100%;
-    /* border: red 5px solid; */
     display: flex;
     overflow-x: auto;
   }
@@ -982,7 +977,6 @@ body {
   /*hele diven*/
   #posters {
     background-color: #7ec7e2;
-    height: 600px;
     justify-items: center;
     padding: 1rem;
   }

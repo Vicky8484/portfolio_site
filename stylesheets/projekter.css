@@ -111,7 +111,7 @@ body {
 
 /*Alle projekter*/
 .projekt {
-  height: 550px;
+  padding-bottom: 1rem;
 }
 
 /*p'er der skal rykkes ind*/
@@ -1006,6 +1006,10 @@ details p {
 @media screen and (min-width: 800px) {
   .scroll-arrow {
     display: none;
+  }
+
+  .projekt {
+    padding-bottom: 1rem;
   }
 
   /*************TEMA 2 DIV DESKTOP***************/

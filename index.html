@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="stylesheets/general.css">
     <link rel="stylesheet" href="stylesheets/forside.css">
+    <link rel="stylesheet" href="stylesheets/sidepanel.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,37 +48,46 @@
         </nav>
     </header>
     <main>
-        <div id="buttonbox">
-            <img id="forside1" src="forside-img/forside1.svg" alt="Victory Omoniyoyah Okosun">
-            <img id="forside2" class="hide" src="forside-img/forside2.svg" alt="Victory Omoniyoyah Okosun">
-            <img id="forside3" class="hide" src="forside-img/forside3mobil.svg" alt="Victory Omoniyoyah Okosun">
-            <button id="knap1" class="anagram">Anagram</button>
-            <button id="knap2" class="anagram hide">Reshuffle</button>
-            <button id="knap3" class="anagram hide">🗘</button>
+        <div id="anagram-main">
+            <div class="tryknu">
+                <h2>Det her kan du ikke se, hahaha</h2>
+            </div>
+            <div id="buttonbox">
+                <img id="forside1" src="forside-img/forside1.svg" alt="Victory Omoniyoyah Okosun">
+                <img id="forside2" class="hide" src="forside-img/forside2.svg" alt="Victory Omoniyoyah Okosun">
+                <img id="forside3" class="hide" src="forside-img/forside3mobil.svg" alt="Victory Omoniyoyah Okosun">
+                <button id="knap1" class="anagram">Anagram</button>
+                <button id="knap2" class="anagram hide">Reshuffle</button>
+                <button id="knap3" class="anagram hide">🗘</button>
+            </div>
+            <div class="anagramknap">
+                <div class="gemknapper">
+                    <button id="desk-knap1" class="anagram hide show">Anagram</button>
+                    <button id="desk-knap2" class="anagram hide">Reshuffle</button>
+                    <button id="desk-knap3" class="anagram hide">🗘</button>
+                </div>
+            </div>
         </div>
         <div id="container">
             <div id="tomdiv" class="panel-div"></div>
+
             <div id="sidepanel" class="panel-div">
-                <div class="button-flex">
-                    <button id="pbutton" class="buttons"><a href="projekter.html">P</a></button>
-                    <div class="text-hide1">rojekter</div>
-                </div>
-                <div class="button-flex">
-                    <button id="obutton" class="buttons"><a href="projekter.html">O</a></button>
-                    <div class="text-hide2">m Victory</div>
-                </div>
+                <a class="genvej mc" href="https://vicky8484.github.io/Studiestart-website/">Min Computer</a>
+                <a class="genvej mmdd" href="https://vicky8484.github.io/mmdd-website/">MMDD</a>
+                <a class="genvej br" href="https://vicky8484.github.io/brainrot/">Brain Rot</a>
+                <a class="genvej cv" href="https://vicky8484.github.io/crush_vintage_redesign/">Crush Vintage</a>
+                <a class="genvej bk" href="https://vicky8484.github.io/babykristen/">Baby Kristen</a>
+                <a class="genvej hskt" href="https://vicky8484.github.io/dobbel_header/">HSKT</a>
+                <a class="genvej os" href="https://vicky8484.github.io/spil_site/">Onclick Spil</a>
+                <a class="genvej quiz" href="https://vicky8484.github.io/survey-site/">Quiz</a>
             </div>
+
         </div>
     </main>
     <footer>
         <div>
             <p>Victory Omoniyoyah Okosun</p>
             <p>MMD studerende, EK</p>
-        </div>
-        <div class="gemknapper">
-            <button id="desk-knap1" class="anagram hide show">Anagram</button>
-            <button id="desk-knap2" class="anagram hide">Reshuffle</button>
-            <button id="desk-knap3" class="anagram hide">🗘</button>
         </div>
     </footer>
     <script src="javascript/menu.js"></script>
