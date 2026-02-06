@@ -1,8 +1,12 @@
 /*SIDEPANEL*/
+#container {
+  display: none;
+}
 
 @media screen and (min-width: 1230px) {
   /*container om det hele*/
   #container {
+    display: block;
     background-color: #e3ffbf;
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -40,13 +44,11 @@
     font-size: 1.6rem;
     color: black;
     background-color: white;
-    padding-block: 2rem;
     width: 200px;
     margin-bottom: 1.5rem;
     border-radius: 10px;
     box-shadow: 10x 5px 6px black;
     text-decoration: none;
-    padding-left: 1rem;
     display: flex;
   }
 }
@@ -58,7 +60,10 @@
   font-family: "Averia Serif Libre", serif;
   font-weight: 600;
   font-style: normal;
+  padding-block: 2rem;
+  padding-left: 0.7rem;
 }
+
 .mmdd {
   background-color: #2b2d42;
   color: #ef233c;
@@ -66,7 +71,10 @@
   font-weight: 400;
   font-style: normal;
   font-size: 3rem;
+  padding-block: 1.5rem;
+  padding-left: 1rem;
 }
+
 .br {
   background-color: #513d34;
   color: #ef4576;
@@ -74,6 +82,8 @@
   font-weight: 800;
   font-style: normal;
   font-size: 2.5rem;
+  padding-block: 1rem;
+  padding-left: 1.3rem;
 }
 
 /*andre bogstaver i rot*/
@@ -99,16 +109,22 @@
   font-weight: 400;
   font-style: normal;
   font-size: 1.9rem;
+  padding-block: 1.5rem;
+  padding-left: 1rem;
 }
+
 .bk {
   background-color: #f1bdcd;
   color: #b02759;
   font-family: "Jomhuria", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 2.8rem;
-  padding-block: 1rem;
+  font-size: 2.6rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
 }
+
 .hskt {
   background-color: #e8e8e0;
   color: #c8586e;
@@ -116,16 +132,19 @@
   font-weight: 800;
   font-style: normal;
   font-size: 3rem;
+  padding-block: 2rem;
   padding-left: 2.1rem;
   text-decoration: line-through 1px #d98595;
 }
+
 .os {
   background-color: #a4c5e2;
   color: #a24a4a;
   font-family: "Happy Monkey", system-ui;
   font-weight: 600;
   font-style: normal;
-  padding-left: 2rem;
+  padding-left: 1.8rem;
+  padding-block: 1.5rem;
 }
 
 .quiz {
@@ -135,8 +154,22 @@
   font-weight: 400;
   font-style: normal;
   font-size: 3rem;
+  padding-block: 1rem;
   padding-left: 2rem;
   text-decoration: underline 2px;
+}
+
+.faces {
+  background-color: #ffa3ba;
+  color: white;
+  text-shadow: black 2px 3px 4px;
+  font-family: "Jomhuria", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  display: flex;
 }
 
 .qui {
