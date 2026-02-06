@@ -1,8 +1,12 @@
 /*SIDEPANEL*/
+#container {
+  display: none;
+}
 
 @media screen and (min-width: 1230px) {
   /*container om det hele*/
   #container {
+    display: block;
     background-color: #e3ffbf;
     display: grid;
     grid-template-columns: 2fr 3fr;

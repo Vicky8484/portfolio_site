@@ -46,6 +46,11 @@ img {
 .scale-ikon {
   width: 50px;
   border-radius: 8px;
+  opacity: 80%;
+}
+
+.scale-ikon:hover {
+  opacity: 100%;
 }
 
 .ikonflex {
