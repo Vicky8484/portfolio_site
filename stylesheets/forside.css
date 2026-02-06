@@ -62,6 +62,11 @@ img {
   }
 }
 
+/*tekst der ikke skal være i mobil*/
+.tryknu {
+  display: none;
+}
+
 /*mobil anagram knapper*/
 
 .anagram {
@@ -160,109 +165,20 @@ img {
     justify-self: center;
   }
 
-  /*SIDEPANEL*/
-
-  #container {
-    background-color: #e3ffbf;
+  #anagram-main {
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 1fr 3fr 2fr;
     display: flex;
   }
 
-  .panel-div {
-    flex: 1;
-    transition: 0.5s;
-    height: 517px;
-    padding-top: 200px;
-    padding-left: 40px;
-  }
-
-  #tomdiv {
-    background-color: #e3ffbf;
-  }
-
-  #sidepanel {
-    background-color: #e9e4af;
-  }
-
-  #sidepanel:hover {
-    flex: 6;
-    background-color: #efc8eb;
-  }
-
-  .text-hide1 {
-    display: none;
-  }
-
-  .text-hide2 {
-    display: none;
-  }
-
-  .buttons:hover + .text-hide1 {
+  .tryknu {
     display: block;
-    color: #e27eb5;
-    font-family: "Luckiest Guy";
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.7rem;
-    padding-top: 12px;
-    padding-left: 5px;
   }
-
-  .buttons:hover + .text-hide2 {
+  .anagramknap {
     display: block;
-    color: #5bbe9f;
-    font-family: "Luckiest Guy";
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.7rem;
-    padding-top: 12px;
-    padding-left: 5px;
+    padding-top: 24rem;
   }
 
-  .button-flex {
-    display: flex;
-  }
-  /*projekt og om mig knapper*/
-
-  .buttons {
-    padding: 0.5rem;
-    font-size: 2.5rem;
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
-    border: none;
-    display: flex;
-    display: block;
-    margin-bottom: 10px;
-  }
-
-  .buttons a {
-    color: #f7fc6c;
-    text-decoration: none;
-  }
-
-  .buttons:hover {
-    box-shadow: 2px 4px 6px #827e5378;
-  }
-  #pbutton {
-    background-color: #d27ee2;
-    color: #f7fc6c;
-  }
-
-  #pbutton:hover {
-    background-color: #e27eb5;
-    color: #f7fc6c;
-  }
-
-  #obutton {
-    background-color: #b7e27e;
-    color: #f7fc6c;
-  }
-
-  #obutton:hover {
-    background-color: #5bbe9f;
-  }
   /*mobil anagram knapper, skal ikke vises*/
   #knap1 {
     display: none;

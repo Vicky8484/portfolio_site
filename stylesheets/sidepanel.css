@@ -1,0 +1,153 @@
+/*SIDEPANEL*/
+
+@media screen and (min-width: 1230px) {
+  /*container om det hele*/
+  #container {
+    background-color: #e3ffbf;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    display: flex;
+  }
+
+  /*den tomme div*/
+  .panel-div {
+    flex: 1;
+    transition: 0.5s;
+    height: 517px;
+    padding-top: 1rem;
+    padding-left: 40px;
+  }
+
+  /*stadig den tomme div, men bevare transition*/
+  #tomdiv {
+    background-color: #e3ffbf;
+  }
+
+  /*diven med indhold*/
+  #sidepanel {
+    background-color: #e9e4af;
+    overflow-x: hidden;
+  }
+
+  #sidepanel:hover {
+    flex: 6;
+    background-color: #efc8eb;
+    overflow-y: scroll;
+  }
+
+  /*sidepanel genveje*/
+  .genvej {
+    font-size: 1.6rem;
+    color: black;
+    background-color: white;
+    padding-block: 2rem;
+    width: 200px;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 10x 5px 6px black;
+    text-decoration: none;
+    padding-left: 1rem;
+    display: flex;
+  }
+}
+
+/*knappers forskellige farver*/
+.mc {
+  background-color: #f9f9eb;
+  color: #b95468;
+  font-family: "Averia Serif Libre", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.mmdd {
+  background-color: #2b2d42;
+  color: #ef233c;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}
+.br {
+  background-color: #513d34;
+  color: #ef4576;
+  font-family: "Baumans", system-ui;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+/*andre bogstaver i rot*/
+.rot1 {
+  color: #d51c5c;
+}
+.rot2 {
+  color: #893b1c;
+}
+.rot3 {
+  color: #5b6a2f;
+}
+
+/*andre bogstaver i mmdd bortset fra d*/
+.mmd {
+  color: #d90429;
+}
+/***/
+.cv {
+  background-color: #d76748;
+  color: #f6e0a3;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.9rem;
+}
+.bk {
+  background-color: #f1bdcd;
+  color: #b02759;
+  font-family: "Jomhuria", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.8rem;
+  padding-block: 1rem;
+}
+.hskt {
+  background-color: #e8e8e0;
+  color: #c8586e;
+  font-family: "Abhaya Libre", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 3rem;
+  padding-left: 2.1rem;
+  text-decoration: line-through 1px #d98595;
+}
+.os {
+  background-color: #a4c5e2;
+  color: #a24a4a;
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 600;
+  font-style: normal;
+  padding-left: 2rem;
+}
+
+.quiz {
+  background-color: #b6f290;
+  color: #3c8218;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  padding-left: 2rem;
+  text-decoration: underline 2px;
+}
+
+.qui {
+  color: #eb4593;
+}
+
+/*hover state*/
+.genvej:hover {
+  box-shadow: #74376e89 5px 6px 7px;
+}
+
+.gemt-tekst {
+  visibility: hidden;
+}
