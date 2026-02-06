@@ -96,6 +96,7 @@ header {
     display: block;
     background-color: transparent;
     border: 0;
+    margin-right: 3rem;
   }
   .burger.active .line:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
