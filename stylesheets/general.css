@@ -141,6 +141,14 @@ footer {
   font-size: 1rem;
 }
 
+footer {
+  color: #587395;
+  background-color: #b4d8cc;
+  display: flex;
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+}
+
 /*footer ikon*/
 .minify {
   width: 18px;

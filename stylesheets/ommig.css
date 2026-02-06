@@ -43,6 +43,16 @@ img {
   font-style: normal;
 }
 
+.scale-ikon {
+  width: 50px;
+  border-radius: 8px;
+}
+
+.ikonflex {
+  display: flex;
+  gap: 1rem;
+}
+
 /*mobil menu for projekter*/
 @media screen and (max-width: 800px) {
   nav.active .menu {
