@@ -140,3 +140,13 @@ footer {
   font-style: normal;
   font-size: 1rem;
 }
+
+/*footer ikon*/
+.minify {
+  width: 18px;
+  opacity: 70%;
+}
+
+.foot-flex {
+  display: flex;
+}

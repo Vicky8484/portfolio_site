@@ -55,39 +55,98 @@
 .mc {
   background-color: #f9f9eb;
   color: #b95468;
+  font-family: "Averia Serif Libre", serif;
+  font-weight: 600;
+  font-style: normal;
 }
 .mmdd {
   background-color: #2b2d42;
   color: #ef233c;
-  box-shadow: #949065 5px 6px 7px;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
 }
 .br {
-  background-color: #3a585d;
-  color: #e7e3b0;
-  box-shadow: #949065 5px 6px 7px;
+  background-color: #513d34;
+  color: #ef4576;
+  font-family: "Baumans", system-ui;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2.5rem;
 }
+
+/*andre bogstaver i rot*/
+.rot1 {
+  color: #d51c5c;
+}
+.rot2 {
+  color: #893b1c;
+}
+.rot3 {
+  color: #5b6a2f;
+}
+
+/*andre bogstaver i mmdd bortset fra d*/
+.mmd {
+  color: #d90429;
+}
+/***/
 .cv {
-  background-color: #f6e0a3;
-  color: #d76748;
-  box-shadow: #949065 5px 6px 7px;
+  background-color: #d76748;
+  color: #f6e0a3;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.9rem;
 }
 .bk {
   background-color: #f1bdcd;
   color: #b02759;
-  box-shadow: #949065 5px 6px 7px;
+  font-family: "Jomhuria", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.8rem;
+  padding-block: 1rem;
 }
 .hskt {
   background-color: #e8e8e0;
   color: #c8586e;
-  box-shadow: #949065 5px 6px 7px;
+  font-family: "Abhaya Libre", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 3rem;
+  padding-left: 2.1rem;
+  text-decoration: line-through 1px #d98595;
 }
 .os {
   background-color: #a4c5e2;
   color: #a24a4a;
-  box-shadow: #949065 5px 6px 7px;
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 600;
+  font-style: normal;
+  padding-left: 2rem;
 }
 .quiz {
   background-color: #b6f290;
+  color: #3c8218;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  padding-left: 2rem;
+  text-decoration: underline 2px;
+}
+
+.qui {
   color: #eb4593;
-  box-shadow: #949065 5px 6px 7px;
+}
+
+/*hover state*/
+.genvej:hover {
+  box-shadow: #74376e89 5px 6px 7px;
+}
+
+.gemt-tekst {
+  visibility: hidden;
 }
