@@ -15,8 +15,10 @@ secretTags2.forEach(function (secretTag2) {
   });
 });
 
-const secretTag3 = document.querySelector("#secret-tag3");
-secretTag3.addEventListener("click", function (event) {
-  event.preventDefault();
-  alert("Top secret gruppe projekt for virksomhed.");
+const secretTags3 = document.querySelectorAll(".secret-tag3");
+secretTags3.forEach(function (secretTag3) {
+  secretTag3.addEventListener("click", function (event) {
+    event.preventDefault();
+    alert("Top secret gruppe projekt for virksomhed.");
+  });
 });
